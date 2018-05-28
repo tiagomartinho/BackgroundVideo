@@ -1,0 +1,22 @@
+{
+  "name": "BackgroundVideo",
+  "version": "0.1.0",
+  "summary": "A short description of BackgroundVideo.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Tiago Martinho/BackgroundVideo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Tiago Martinho": "tiago@elit.software"
+  },
+  "source": {
+    "git": "https://github.com/Tiago Martinho/BackgroundVideo.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BackgroundVideo/Classes/**/*"
+}
