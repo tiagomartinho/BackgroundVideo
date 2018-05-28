@@ -14,7 +14,7 @@
 		4F3A48CEFCA788CBC62DA99AE14C9E4F /* BackgroundVideo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CEB5E2E0F4D523CF1294E88134A0590 /* BackgroundVideo-dummy.m */; };
 		768F3A5E64FE521A37B3FFD7A0AF184E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		9618C829A2E044497E10B2D3A3DDE384 /* Pods-BackgroundVideo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BABB4330FFEA7880124537641956B7EA /* Pods-BackgroundVideo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C7386215515D94A68106C98DA4856201 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F10EE59B4A37F11A2C6EC3FD59994A3 /* ReplaceMe.swift */; };
+		C7386215515D94A68106C98DA4856201 /* BackgroundVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F10EE59B4A37F11A2C6EC3FD59994A3 /* BackgroundVideo.swift */; };
 		D5610743607CD506E6506F70BE24447E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		EE6D9A69DC01BF93EE3F3D0944A84B5E /* Pods-BackgroundVideo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A26511C6912C3D970E42C7E6E0E33BAC /* Pods-BackgroundVideo_Tests-dummy.m */; };
 /* End PBXBuildFile section */
@@ -42,36 +42,36 @@
 		091C9C6E9190F8D119E1B351B5248341 /* Pods-BackgroundVideo_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BackgroundVideo_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		1F6BEBB63282E720E7E4C1D13A5D105A /* Pods-BackgroundVideo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BackgroundVideo_Example-umbrella.h"; sourceTree = "<group>"; };
 		390CBC2BE6FB9475DC46B912E5D10A55 /* Pods-BackgroundVideo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BackgroundVideo_Example-frameworks.sh"; sourceTree = "<group>"; };
-		39634638BD9487E54DCBD9AB96C38444 /* Pods_BackgroundVideo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BackgroundVideo_Tests.framework; path = "Pods-BackgroundVideo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39634638BD9487E54DCBD9AB96C38444 /* Pods_BackgroundVideo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BackgroundVideo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48A379D1845B401633ED47A31C1517AF /* Pods-BackgroundVideo_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BackgroundVideo_Tests-resources.sh"; sourceTree = "<group>"; };
 		4EDAB2F342576F21A0A4F04A597BD90F /* Pods-BackgroundVideo_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BackgroundVideo_Example-resources.sh"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5E333E6E7B532DF387430E1951AFFB74 /* Pods-BackgroundVideo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BackgroundVideo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		631536F1D8DB65F369FDA5A44F666891 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64AB6207350DBB04184C87DF09F2103A /* BackgroundVideo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BackgroundVideo-umbrella.h"; sourceTree = "<group>"; };
-		67D04B3800D4625D151D1EB5B6D2EB2F /* BackgroundVideo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BackgroundVideo.framework; path = BackgroundVideo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67D04B3800D4625D151D1EB5B6D2EB2F /* BackgroundVideo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BackgroundVideo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68451E7A07DB5906AA6145EE93703EBF /* Pods-BackgroundVideo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BackgroundVideo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6CEB5E2E0F4D523CF1294E88134A0590 /* BackgroundVideo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BackgroundVideo-dummy.m"; sourceTree = "<group>"; };
-		6F10EE59B4A37F11A2C6EC3FD59994A3 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = BackgroundVideo/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		6F10EE59B4A37F11A2C6EC3FD59994A3 /* BackgroundVideo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BackgroundVideo.swift; path = BackgroundVideo/Classes/BackgroundVideo.swift; sourceTree = "<group>"; };
 		715BF6CF17EBE058C28FBC21127C5E80 /* BackgroundVideo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BackgroundVideo.xcconfig; sourceTree = "<group>"; };
 		733B64DF49D3974BC7D02E64202FDF66 /* Pods-BackgroundVideo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BackgroundVideo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8ACF64CC38DE28F9AAB32FA4128DAADE /* BackgroundVideo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BackgroundVideo-prefix.pch"; sourceTree = "<group>"; };
 		902F50CBC315B4805B8BBA3785CCCE7C /* Pods-BackgroundVideo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BackgroundVideo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		969733A44483E611630A96662A3982B6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		990241E4E366EBBCC5724EAB3E3BA895 /* Pods-BackgroundVideo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BackgroundVideo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		A26511C6912C3D970E42C7E6E0E33BAC /* Pods-BackgroundVideo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BackgroundVideo_Tests-dummy.m"; sourceTree = "<group>"; };
-		A6E08E47B65510E033BB0976ACCA6133 /* BackgroundVideo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = BackgroundVideo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AB7723C5D6B0F68B7E4CF30C15EBE8FF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A6E08E47B65510E033BB0976ACCA6133 /* BackgroundVideo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = BackgroundVideo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB7723C5D6B0F68B7E4CF30C15EBE8FF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AF2143F0FD8F21E4C8815D57413FD829 /* Pods-BackgroundVideo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BackgroundVideo_Example-dummy.m"; sourceTree = "<group>"; };
 		BABB4330FFEA7880124537641956B7EA /* Pods-BackgroundVideo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BackgroundVideo_Tests-umbrella.h"; sourceTree = "<group>"; };
 		BC878ABCB4F45DCBBB6B42C48FA9CBF8 /* Pods-BackgroundVideo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BackgroundVideo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C5A49C4F503B33DACF968E338D0D21C1 /* Pods-BackgroundVideo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BackgroundVideo_Tests.modulemap"; sourceTree = "<group>"; };
 		CCC4C78CBC6F29FA4E48ACE5ADBCFF38 /* BackgroundVideo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BackgroundVideo.modulemap; sourceTree = "<group>"; };
-		D92D76F73D80278560B3149BE9EFB0A6 /* Pods_BackgroundVideo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BackgroundVideo_Example.framework; path = "Pods-BackgroundVideo_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D92D76F73D80278560B3149BE9EFB0A6 /* Pods_BackgroundVideo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BackgroundVideo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0FE0DCA80D52326ACF72D5AAB2E69F3 /* Pods-BackgroundVideo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BackgroundVideo_Example.modulemap"; sourceTree = "<group>"; };
 		E9A97C97FE2A8FE33CC44876963B9AE9 /* Pods-BackgroundVideo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BackgroundVideo_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FFF093B8DA536C00D1643AF0C5D7A300 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FFF093B8DA536C00D1643AF0C5D7A300 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,7 +141,7 @@
 		47C83C2B73180E873223F6CC1584DD75 /* BackgroundVideo */ = {
 			isa = PBXGroup;
 			children = (
-				6F10EE59B4A37F11A2C6EC3FD59994A3 /* ReplaceMe.swift */,
+				6F10EE59B4A37F11A2C6EC3FD59994A3 /* BackgroundVideo.swift */,
 				EA4645A42D067EAD784EEDB5670A8C48 /* Pod */,
 				B6B7D643138523BA0A502C41A587DB58 /* Support Files */,
 			);
@@ -344,7 +344,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F3A48CEFCA788CBC62DA99AE14C9E4F /* BackgroundVideo-dummy.m in Sources */,
-				C7386215515D94A68106C98DA4856201 /* ReplaceMe.swift in Sources */,
+				C7386215515D94A68106C98DA4856201 /* BackgroundVideo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
