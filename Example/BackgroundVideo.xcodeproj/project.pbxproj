@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24C267FE20BBD747002EA3F4 /* Video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 24C267FD20BBD50D002EA3F4 /* Video.mp4 */; };
 		4491FEC2B7B0AABB63A7B500 /* Pods_BackgroundVideo_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1C1700D543172C0A8F69892 /* Pods_BackgroundVideo_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -250,6 +251,7 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				24C267FE20BBD747002EA3F4 /* Video.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
