@@ -3,8 +3,10 @@ import BackgroundVideo
 
 class ViewController: UIViewController {
 
+    var looper: VideoLooper?
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.add(video: "Video.mp4")
+        looper = view.add(video: "Video.mp4")
     }
 }
