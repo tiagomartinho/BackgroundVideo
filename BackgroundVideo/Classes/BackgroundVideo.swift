@@ -16,12 +16,10 @@ extension UIView {
         addSubview(playerView)
 
         playerView.translatesAutoresizingMaskIntoConstraints = false
-        if #available(iOS 9.0, *) {
-            playerView.leadingAnchor.constraint(equalTo: leadingAnchor).isActive = true
-            playerView.trailingAnchor.constraint(equalTo: trailingAnchor).isActive = true
-            playerView.topAnchor.constraint(equalTo: topAnchor).isActive = true
-            playerView.bottomAnchor.constraint(equalTo: bottomAnchor).isActive = true
-        }
+        playerView.leadingAnchor.constraint(equalTo: leadingAnchor).isActive = true
+        playerView.trailingAnchor.constraint(equalTo: trailingAnchor).isActive = true
+        playerView.topAnchor.constraint(equalTo: topAnchor).isActive = true
+        playerView.bottomAnchor.constraint(equalTo: bottomAnchor).isActive = true
 
 
         player.play()

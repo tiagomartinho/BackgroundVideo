@@ -61,7 +61,7 @@
 		969733A44483E611630A96662A3982B6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		990241E4E366EBBCC5724EAB3E3BA895 /* Pods-BackgroundVideo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BackgroundVideo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		A26511C6912C3D970E42C7E6E0E33BAC /* Pods-BackgroundVideo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BackgroundVideo_Tests-dummy.m"; sourceTree = "<group>"; };
-		A6E08E47B65510E033BB0976ACCA6133 /* BackgroundVideo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = BackgroundVideo.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6E08E47B65510E033BB0976ACCA6133 /* BackgroundVideo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = BackgroundVideo.podspec; sourceTree = "<group>"; };
 		AB7723C5D6B0F68B7E4CF30C15EBE8FF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AF2143F0FD8F21E4C8815D57413FD829 /* Pods-BackgroundVideo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BackgroundVideo_Example-dummy.m"; sourceTree = "<group>"; };
 		BABB4330FFEA7880124537641956B7EA /* Pods-BackgroundVideo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BackgroundVideo_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -433,7 +433,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/BackgroundVideo/BackgroundVideo-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/BackgroundVideo/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/BackgroundVideo/BackgroundVideo.modulemap";
 				PRODUCT_MODULE_NAME = BackgroundVideo;
@@ -466,7 +466,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/BackgroundVideo/BackgroundVideo-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/BackgroundVideo/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/BackgroundVideo/BackgroundVideo.modulemap";
 				PRODUCT_MODULE_NAME = BackgroundVideo;
