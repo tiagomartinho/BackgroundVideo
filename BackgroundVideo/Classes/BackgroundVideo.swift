@@ -39,11 +39,18 @@ extension UIView {
     }
 
     private func add(_ playerView: UIView) {
-        addSubview(playerView)
-        playerView.translatesAutoresizingMaskIntoConstraints = false
-        playerView.leadingAnchor.constraint(equalTo: leadingAnchor).isActive = true
-        playerView.trailingAnchor.constraint(equalTo: trailingAnchor).isActive = true
-        playerView.topAnchor.constraint(equalTo: topAnchor).isActive = true
-        playerView.bottomAnchor.constraint(equalTo: bottomAnchor).isActive = true
+        let blackView = UIView()
+        blackView.backgroundColor = .black
+        addAndPin(view: blackView)
+        addAndPin(view: playerView)
+    }
+
+    private func addAndPin(view: UIView) {
+        addSubview(view)
+        view.translatesAutoresizingMaskIntoConstraints = false
+        view.leadingAnchor.constraint(equalTo: leadingAnchor).isActive = true
+        view.trailingAnchor.constraint(equalTo: trailingAnchor).isActive = true
+        view.topAnchor.constraint(equalTo: topAnchor).isActive = true
+        view.bottomAnchor.constraint(equalTo: bottomAnchor).isActive = true
     }
 }
