@@ -20,6 +20,8 @@ extension UIView {
         playerView.alpha = alpha
         add(playerView)
 
+        player.play()
+        
         let playerLooper = AVPlayerLooper(player: player, templateItem: item)
         return Player(playerLooper: playerLooper, player: player)
     }
