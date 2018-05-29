@@ -2,7 +2,7 @@ import AVFoundation
 
 extension UIView {
     
-    public func add(videoName: String, alpha: CGFloat = 1.0) -> PlayerLooper? {
+    public func add(videoName: String, alpha: CGFloat = 1.0) -> Player? {
 
         guard let path = PathExtractor.extract(from: videoName) else {
             return nil
@@ -11,7 +11,7 @@ extension UIView {
         return add(videoPath: path, alpha: alpha)
     }
 
-    public func add(videoPath path: String, alpha: CGFloat = 1.0) -> PlayerLooper? {
+    public func add(videoPath path: String, alpha: CGFloat = 1.0) -> Player? {
         let item = buildPlayerItem(path: path)
         let player = AVQueuePlayer(playerItem: item)
         let playerLayer = AVPlayerLayer(player: player)
@@ -20,10 +20,8 @@ extension UIView {
         playerView.alpha = alpha
         add(playerView)
 
-        player.play()
-
-        let videoLooper = AVPlayerLooper(player: player, templateItem: item)
-        return videoLooper
+        let playerLooper = AVPlayerLooper(player: player, templateItem: item)
+        return Player(playerLooper: playerLooper, player: player)
     }
 
     private func buildPlayerItem(path: String) -> AVPlayerItem {

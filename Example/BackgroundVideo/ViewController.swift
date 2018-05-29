@@ -3,10 +3,20 @@ import BackgroundVideo
 
 class ViewController: UIViewController {
 
-    var looper: PlayerLooper?
+    var player: Player?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        looper = view.add(videoName: "Video.mp4")
+        player = view.add(videoName: "Video.mp4", alpha: 0.5)
+    }
+
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        player?.play()
+    }
+
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        player?.pause()
     }
 }
