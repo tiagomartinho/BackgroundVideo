@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		24C267FE20BBD747002EA3F4 /* Video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 24C267FD20BBD50D002EA3F4 /* Video.mp4 */; };
+		24C2680320BD2015002EA3F4 /* Video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 24C267FD20BBD50D002EA3F4 /* Video.mp4 */; };
 		4491FEC2B7B0AABB63A7B500 /* Pods_BackgroundVideo_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1C1700D543172C0A8F69892 /* Pods_BackgroundVideo_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		B5F21032F81543FFA8A58EF2 /* Pods_BackgroundVideo_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC4151863B86FE9DAB975651 /* Pods_BackgroundVideo_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,7 +39,6 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* BackgroundVideo_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BackgroundVideo_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		608D65DCF043BDD8053B62DD /* BackgroundVideo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BackgroundVideo.podspec; path = ../BackgroundVideo.podspec; sourceTree = "<group>"; };
 		6ACF843CD64925687D526A65 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9897046B5CCE947CC062B69B /* Pods-BackgroundVideo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BackgroundVideo_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BackgroundVideo_Example/Pods-BackgroundVideo_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -129,7 +128,6 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -259,6 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24C2680320BD2015002EA3F4 /* Video.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,7 +334,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

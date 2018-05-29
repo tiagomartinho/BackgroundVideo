@@ -10,6 +10,7 @@
 		128D11CE66247301EB735C46BE7E1CFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		24C2680020BD1D10002EA3F4 /* PlayerLooper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C267FF20BD1D10002EA3F4 /* PlayerLooper.swift */; };
 		24C2680220BD1D4B002EA3F4 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C2680120BD1D4B002EA3F4 /* PlayerView.swift */; };
+		24C2680520BD20AD002EA3F4 /* PathExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C2680420BD20AD002EA3F4 /* PathExtractor.swift */; };
 		2F17A132FE5F3FA6E929E429D9184DC8 /* Pods-BackgroundVideo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F6BEBB63282E720E7E4C1D13A5D105A /* Pods-BackgroundVideo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2F47603FD85B9074041B093CF57FD907 /* Pods-BackgroundVideo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2143F0FD8F21E4C8815D57413FD829 /* Pods-BackgroundVideo_Example-dummy.m */; };
 		49A618FD0BA043225533DF865A49E23E /* BackgroundVideo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64AB6207350DBB04184C87DF09F2103A /* BackgroundVideo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -45,6 +46,7 @@
 		1F6BEBB63282E720E7E4C1D13A5D105A /* Pods-BackgroundVideo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BackgroundVideo_Example-umbrella.h"; sourceTree = "<group>"; };
 		24C267FF20BD1D10002EA3F4 /* PlayerLooper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerLooper.swift; sourceTree = "<group>"; };
 		24C2680120BD1D4B002EA3F4 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		24C2680420BD20AD002EA3F4 /* PathExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathExtractor.swift; sourceTree = "<group>"; };
 		390CBC2BE6FB9475DC46B912E5D10A55 /* Pods-BackgroundVideo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BackgroundVideo_Example-frameworks.sh"; sourceTree = "<group>"; };
 		39634638BD9487E54DCBD9AB96C38444 /* Pods_BackgroundVideo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BackgroundVideo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48A379D1845B401633ED47A31C1517AF /* Pods-BackgroundVideo_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BackgroundVideo_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 				6F10EE59B4A37F11A2C6EC3FD59994A3 /* BackgroundVideo.swift */,
 				24C267FF20BD1D10002EA3F4 /* PlayerLooper.swift */,
 				24C2680120BD1D4B002EA3F4 /* PlayerView.swift */,
+				24C2680420BD20AD002EA3F4 /* PathExtractor.swift */,
 				EA4645A42D067EAD784EEDB5670A8C48 /* Pod */,
 				B6B7D643138523BA0A502C41A587DB58 /* Support Files */,
 			);
@@ -353,6 +356,7 @@
 				4F3A48CEFCA788CBC62DA99AE14C9E4F /* BackgroundVideo-dummy.m in Sources */,
 				C7386215515D94A68106C98DA4856201 /* BackgroundVideo.swift in Sources */,
 				24C2680220BD1D4B002EA3F4 /* PlayerView.swift in Sources */,
+				24C2680520BD20AD002EA3F4 /* PathExtractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

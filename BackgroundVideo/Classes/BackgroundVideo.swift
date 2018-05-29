@@ -2,7 +2,7 @@ import AVFoundation
 
 extension UIView {
     public func add(video: String) -> PlayerLooper? {
-        guard let path = Bundle.main.path(forResource: "Video", ofType:"mp4") else {
+        guard let path = PathExtractor.extract(name: video) else {
             return nil
         }
         let videoURL = URL(fileURLWithPath: path)
