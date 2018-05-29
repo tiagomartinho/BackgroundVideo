@@ -1,7 +1,7 @@
 import AVFoundation
 
 extension UIView {
-    public func add(video: String) -> VideoLooper? {
+    public func add(video: String) -> PlayerLooper? {
         guard let path = Bundle.main.path(forResource: "Video", ofType:"mp4") else {
             return nil
         }
@@ -28,18 +28,5 @@ extension UIView {
     }
 }
 
-public protocol VideoLooper {
-}
 
-extension AVPlayerLooper: VideoLooper {
-}
 
-class PlayerView: UIView {
-
-    var playerLayer: CALayer?
-
-    override func layoutSublayers(of layer: CALayer) {
-        super.layoutSublayers(of: layer)
-        playerLayer?.frame = bounds
-    }
-}

@@ -3,7 +3,7 @@ import BackgroundVideo
 
 class ViewController: UIViewController {
 
-    var looper: VideoLooper?
+    var looper: PlayerLooper?
 
     override func viewDidLoad() {
         super.viewDidLoad()
