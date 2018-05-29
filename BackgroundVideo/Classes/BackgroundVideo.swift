@@ -2,28 +2,39 @@ import AVFoundation
 
 extension UIView {
     public func add(video: String) -> PlayerLooper? {
+
         guard let path = PathExtractor.extract(name: video) else {
             return nil
         }
-        let videoURL = URL(fileURLWithPath: path)
-        let asset = AVAsset(url: videoURL)
-        let item = AVPlayerItem(asset: asset)
+
+        let item = buildPlayerItem(path: path)
         let player = AVQueuePlayer(playerItem: item)
         let playerLayer = AVPlayerLayer(player: player)
-        let playerView = PlayerView()
-        playerView.playerLayer = playerLayer
-        playerLayer.videoGravity = .resizeAspectFill
-        playerView.layer.addSublayer(playerLayer)
 
+        let playerView = buildPlayerView(playerLayer: playerLayer)
         add(playerView)
-        
+
         player.play()
 
         let videoLooper = AVPlayerLooper(player: player, templateItem: item)
         return videoLooper
     }
 
-    func add(_ playerView: UIView) {
+    private func buildPlayerItem(path: String) -> AVPlayerItem {
+        let videoURL = URL(fileURLWithPath: path)
+        let asset = AVAsset(url: videoURL)
+        return AVPlayerItem(asset: asset)
+    }
+
+    private func buildPlayerView(playerLayer: AVPlayerLayer) -> PlayerView {
+        let playerView = PlayerView()
+        playerView.playerLayer = playerLayer
+        playerLayer.videoGravity = .resizeAspectFill
+        playerView.layer.addSublayer(playerLayer)
+        return playerView
+    }
+
+    private func add(_ playerView: UIView) {
         addSubview(playerView)
         playerView.translatesAutoresizingMaskIntoConstraints = false
         playerView.leadingAnchor.constraint(equalTo: leadingAnchor).isActive = true
@@ -32,6 +43,3 @@ extension UIView {
         playerView.bottomAnchor.constraint(equalTo: bottomAnchor).isActive = true
     }
 }
-
-
-
