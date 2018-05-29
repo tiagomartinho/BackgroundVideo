@@ -1,5 +1,5 @@
 class PathExtractor {
-    static func extract(name: String) -> String? {
+    static func extract(from name: String) -> String? {
         let components = name.components(separatedBy: ".")
         let containsType = components.count == 2
         guard containsType else { return nil }

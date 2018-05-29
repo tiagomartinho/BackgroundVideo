@@ -7,6 +7,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        looper = view.add(video: "Video.mp4")
+        looper = view.add(videoName: "Video.mp4")
     }
 }
