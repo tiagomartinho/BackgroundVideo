@@ -2,21 +2,22 @@ import AVFoundation
 
 extension UIView {
     
-    public func add(videoName: String) -> PlayerLooper? {
+    public func add(videoName: String, alpha: CGFloat = 1.0) -> PlayerLooper? {
 
         guard let path = PathExtractor.extract(from: videoName) else {
             return nil
         }
 
-        return add(videoPath: path)
+        return add(videoPath: path, alpha: alpha)
     }
 
-    public func add(videoPath path: String) -> PlayerLooper? {
+    public func add(videoPath path: String, alpha: CGFloat = 1.0) -> PlayerLooper? {
         let item = buildPlayerItem(path: path)
         let player = AVQueuePlayer(playerItem: item)
         let playerLayer = AVPlayerLayer(player: player)
 
         let playerView = buildPlayerView(playerLayer: playerLayer)
+        playerView.alpha = alpha
         add(playerView)
 
         player.play()
