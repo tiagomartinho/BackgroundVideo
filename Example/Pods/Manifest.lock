@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BackgroundVideo: 8bea9da870c946a922f65f81258b8152f3d1e797
+  BackgroundVideo: 15bf9b5b9ba90b7da4bfb394cc9861deb5f8f1c0
 
 PODFILE CHECKSUM: eb7a1a0baf7516a8b8ffc51e7788b938ea66101e
 
-COCOAPODS: 1.5.2
+COCOAPODS: 1.7.5
