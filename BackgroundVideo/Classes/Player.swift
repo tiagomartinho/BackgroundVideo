@@ -17,9 +17,9 @@ public class Player {
     init(playerLooper: AVPlayerLooper, player: AVPlayer) {
         self.playerLooper = playerLooper
         self.player = player
-        notificationCenter.addObserver(self, selector: #selector(pause), name: Notification.Name.UIApplicationWillResignActive, object: nil)
-        notificationCenter.addObserver(self, selector: #selector(play), name: Notification.Name.UIApplicationWillEnterForeground, object: nil)
-        notificationCenter.addObserver(self, selector: #selector(play), name: Notification.Name.UIApplicationDidBecomeActive, object: nil)
+        notificationCenter.addObserver(self, selector: #selector(pause), name: UIApplication.willResignActiveNotification, object: nil)
+        notificationCenter.addObserver(self, selector: #selector(play), name: UIApplication.willEnterForegroundNotification, object: nil)
+        notificationCenter.addObserver(self, selector: #selector(play), name: UIApplication.didBecomeActiveNotification, object: nil)
     }
 
     deinit {

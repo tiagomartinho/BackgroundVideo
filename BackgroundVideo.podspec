@@ -16,4 +16,5 @@ Great for onboarding screens where you want to play a video in loop below your U
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'BackgroundVideo/Classes/**/*'
+  s.swift_versions = ['5.0']
 end
