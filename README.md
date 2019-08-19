@@ -1,9 +1,50 @@
 # BackgroundVideo
 
-[![CI Status](https://img.shields.io/travis/Tiago Martinho/BackgroundVideo.svg?style=flat)](https://travis-ci.org/Tiago Martinho/BackgroundVideo)
 [![Version](https://img.shields.io/cocoapods/v/BackgroundVideo.svg?style=flat)](https://cocoapods.org/pods/BackgroundVideo)
 [![License](https://img.shields.io/cocoapods/l/BackgroundVideo.svg?style=flat)](https://cocoapods.org/pods/BackgroundVideo)
 [![Platform](https://img.shields.io/cocoapods/p/BackgroundVideo.svg?style=flat)](https://cocoapods.org/pods/BackgroundVideo)
+
+## How to use
+
+1) Add the video file to your project (with mp4 format)
+
+2) Import the framework
+```swift
+import BackgroundVideo
+```
+
+3) Keep a reference to Player
+```swift
+var player: Player?
+```
+
+4) Instantiate Player when the view loads
+```swift
+override func viewDidLoad() {
+    super.viewDidLoad()
+    player = view.add(videoName: "Video.mp4", alpha: 0.5)
+}
+```
+
+5) Play when the view appears
+```swift
+override func viewWillAppear(_ animated: Bool) {
+    super.viewWillAppear(animated)
+    player?.play()
+}
+```
+
+6) Pause when the view disappears
+```swift
+override func viewDidDisappear(_ animated: Bool) {
+    super.viewDidDisappear(animated)
+    player?.pause()
+}
+```
+
+7) ???
+
+8) Profit
 
 ## Example
 
