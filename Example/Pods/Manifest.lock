@@ -1,5 +1,5 @@
 PODS:
-  - BackgroundVideo (0.1.0)
+  - BackgroundVideo (0.2.0)
 
 DEPENDENCIES:
   - BackgroundVideo (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BackgroundVideo: 15bf9b5b9ba90b7da4bfb394cc9861deb5f8f1c0
+  BackgroundVideo: 4edaf7528cf0c35e47a246e2afcd8a46288a4a02
 
 PODFILE CHECKSUM: eb7a1a0baf7516a8b8ffc51e7788b938ea66101e
 

@@ -1,8 +1,8 @@
 {
   "name": "BackgroundVideo",
-  "version": "0.1.0",
-  "summary": "A short description of BackgroundVideo.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.2.0",
+  "summary": "Play a video in the Background of a view.",
+  "description": "Great for onboarding screens where you want to play a video in loop below your UI.",
   "homepage": "https://github.com/Tiago Martinho/BackgroundVideo",
   "license": {
     "type": "MIT",
@@ -13,10 +13,15 @@
   },
   "source": {
     "git": "https://github.com/Tiago Martinho/BackgroundVideo.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
+  "social_media_url": "https://twitter.com/martinho_t",
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "BackgroundVideo/Classes/**/*"
+  "source_files": "BackgroundVideo/Classes/**/*",
+  "swift_versions": [
+    "5.0"
+  ],
+  "swift_version": "5.0"
 }

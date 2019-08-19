@@ -44,12 +44,12 @@
 		085140EDFB816231D2213B2FC4E88006 /* Pods-BackgroundVideo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BackgroundVideo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		08DC8935D9E43B30FFEA448AAE1154B5 /* BackgroundVideo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BackgroundVideo.swift; path = BackgroundVideo/Classes/BackgroundVideo.swift; sourceTree = "<group>"; };
 		097DE7F01B70CF02FD9B50E74C6B64BA /* PlayerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlayerView.swift; path = BackgroundVideo/Classes/PlayerView.swift; sourceTree = "<group>"; };
-		0A0C1BF4F9840D7D5218DBD3CF19EA45 /* Pods_BackgroundVideo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BackgroundVideo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A0C1BF4F9840D7D5218DBD3CF19EA45 /* Pods_BackgroundVideo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BackgroundVideo_Example.framework; path = "Pods-BackgroundVideo_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AF0782EC9F1741D808683BCE4015588 /* BackgroundVideo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BackgroundVideo.xcconfig; sourceTree = "<group>"; };
 		242105ACE43B78150C8D6A896B26E20D /* BackgroundVideo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BackgroundVideo-dummy.m"; sourceTree = "<group>"; };
-		2549259E524E50265DCAAD5BD1DF7DEC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		258CC76C46B574509D9DE2731409113B /* Pods_BackgroundVideo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BackgroundVideo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D21C2EAC8CFFBA0605FC0157AC714B6 /* BackgroundVideo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BackgroundVideo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2549259E524E50265DCAAD5BD1DF7DEC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		258CC76C46B574509D9DE2731409113B /* Pods_BackgroundVideo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BackgroundVideo_Tests.framework; path = "Pods-BackgroundVideo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D21C2EAC8CFFBA0605FC0157AC714B6 /* BackgroundVideo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BackgroundVideo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		422163EB2BAA6B04345044FB1F0F5843 /* Pods-BackgroundVideo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BackgroundVideo_Tests-umbrella.h"; sourceTree = "<group>"; };
 		4CB521990C6135002C491E99E49A9452 /* BackgroundVideo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BackgroundVideo-Info.plist"; sourceTree = "<group>"; };
@@ -58,19 +58,19 @@
 		625B04AC697911F661302C2C6DDD6395 /* Pods-BackgroundVideo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BackgroundVideo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6370048FAB01625BAA2EC8F621D8F098 /* Player.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Player.swift; path = BackgroundVideo/Classes/Player.swift; sourceTree = "<group>"; };
 		64052BA4097866B379709E0B061C53F1 /* BackgroundVideo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BackgroundVideo-prefix.pch"; sourceTree = "<group>"; };
-		69E69BAD8AFADE796B3FF967DB1FE9B4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		69E69BAD8AFADE796B3FF967DB1FE9B4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		7A313F765F40582DF07BB1D6C4F20DE0 /* Pods-BackgroundVideo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BackgroundVideo_Example-umbrella.h"; sourceTree = "<group>"; };
 		7B94B09603DF02AF9B9EE5E5C070FBA7 /* PathExtractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PathExtractor.swift; path = BackgroundVideo/Classes/PathExtractor.swift; sourceTree = "<group>"; };
 		7B9D3FBFD9B10ABED889FECBB40CB048 /* Pods-BackgroundVideo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BackgroundVideo_Tests.modulemap"; sourceTree = "<group>"; };
 		8D6AFA441C60409AC124F5C1C4665A2E /* Pods-BackgroundVideo_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BackgroundVideo_Tests-Info.plist"; sourceTree = "<group>"; };
 		99CABE5E093DC55B6F437570E1913031 /* Pods-BackgroundVideo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BackgroundVideo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9C24AA30C3A99BDB2D808E3F1E37B518 /* Pods-BackgroundVideo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BackgroundVideo_Tests-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A285269E299DA659676E5ABD0F43A4A2 /* Pods-BackgroundVideo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BackgroundVideo_Example.release.xcconfig"; sourceTree = "<group>"; };
 		ACEFCEC5E09B08778735ABA5B67E26DC /* Pods-BackgroundVideo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BackgroundVideo_Example.modulemap"; sourceTree = "<group>"; };
 		B7A07F1849BFF8CEE33B66168B7DA5F1 /* Pods-BackgroundVideo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BackgroundVideo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E734BD0383AE661EFB6E12C47FFE9702 /* Pods-BackgroundVideo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BackgroundVideo_Example-dummy.m"; sourceTree = "<group>"; };
-		ED238BE420BCFCED932603722EA387DD /* BackgroundVideo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BackgroundVideo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED238BE420BCFCED932603722EA387DD /* BackgroundVideo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BackgroundVideo.framework; path = BackgroundVideo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED314663F12AA640A58D9277A3B6BB01 /* Pods-BackgroundVideo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BackgroundVideo_Example-frameworks.sh"; sourceTree = "<group>"; };
 		F99C9078D3D8835B944F79B000D1AFB2 /* BackgroundVideo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BackgroundVideo.modulemap; sourceTree = "<group>"; };
 		FB883FD6231A009F99C04ED272A4A6DB /* Pods-BackgroundVideo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BackgroundVideo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -324,11 +324,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				TargetAttributes = {
-					62CBD9D1A39E85B53AFAD1A13B5E3E8E = {
-						LastSwiftMigration = 1100;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -518,7 +513,39 @@
 			};
 			name = Debug;
 		};
-		39F3FEB62ED667980B3346AE61B84C12 /* Release */ = {
+		3F4F206CF7766CA0DA127E650F030C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AF0782EC9F1741D808683BCE4015588 /* BackgroundVideo.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BackgroundVideo/BackgroundVideo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BackgroundVideo/BackgroundVideo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BackgroundVideo/BackgroundVideo.modulemap";
+				PRODUCT_MODULE_NAME = BackgroundVideo;
+				PRODUCT_NAME = BackgroundVideo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3F5A61418349C5D91848B1426ECE3295 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1AF0782EC9F1741D808683BCE4015588 /* BackgroundVideo.xcconfig */;
 			buildSettings = {
@@ -585,38 +612,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		5E149184C05A337176ACE094198071D7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1AF0782EC9F1741D808683BCE4015588 /* BackgroundVideo.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/BackgroundVideo/BackgroundVideo-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/BackgroundVideo/BackgroundVideo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/BackgroundVideo/BackgroundVideo.modulemap";
-				PRODUCT_MODULE_NAME = BackgroundVideo;
-				PRODUCT_NAME = BackgroundVideo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		8187B96233AD1580E8C5D85DD03CF99F /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -740,7 +735,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -761,8 +757,8 @@
 		97F4CF0C1421793D888EDCC823A7E13C /* Build configuration list for PBXNativeTarget "BackgroundVideo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5E149184C05A337176ACE094198071D7 /* Debug */,
-				39F3FEB62ED667980B3346AE61B84C12 /* Release */,
+				3F4F206CF7766CA0DA127E650F030C3B /* Debug */,
+				3F5A61418349C5D91848B1426ECE3295 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
